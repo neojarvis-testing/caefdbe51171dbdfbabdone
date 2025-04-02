@@ -12,4 +12,3 @@ def load_hotels(filename):
 def save_hotels(hotels, filename):
     with open(filename, 'w') as file:
         json.dump(hotels, file, indent=4)
-
